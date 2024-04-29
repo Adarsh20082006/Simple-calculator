@@ -8,6 +8,7 @@ function data(a){
     if(document.querySelector(".display").value.length>=12){
        document.querySelector(".display").id="display-1"; 
     }
+    
     else{
        document.querySelector(".display").id="";
     }
