@@ -1,67 +1,6 @@
-/* .main-box{
-display:flexbox;
-background-color: black;
-align-items: center;
-margin: auto;
-height: 600px;
-width: auto;
-border-radius: 15px;
-}
-.text-box input{
-    text-align: right;
-    width: 350px;
-    height: 70px;
-    border: 0;
-    outline:0;
-    margin-top:20px;
-    margin-left: 23px;
-    background-color: rgb(29, 28, 28);
-    justify-content:end;
-    color: rgb(151, 172, 66);
-    font-size: 50px;
-}
-.button-1 input{
-cursor: pointer;
-margin-top: 20px;
-margin-left: 35px; 
-height: 45px;
-width: 70px;
-border-radius: 15px;
-box-shadow:4px 4px rgba(97, 93, 93, 0.352) ,-4px -4px rgba(78, 72, 72, 0.61);
-background-color: black;
-color: rgb(115, 115, 70);
-font-size: large;
-font-weight: bold;
-}
-[class *="button-2"] input{
-cursor: pointer;
-margin:30px 20px 0;
-align-items: center;
-height: 60px;
-width: 55px;
-border-radius: 20px;
-background-color: rgb(14, 13, 13);
-color: azure;
-font-size: 25px;
-}
-.button-3 input,.button-4 input,.button-5 input{
-    cursor:pointer;
-    margin:30px 20px 0;
-    align-items: center;
-    height: 60px;
-    width: 55px;
-    border-radius: 25px;
-    background-color: rgb(14, 13, 13);
-    color: azure;
-    font-size: 25px;
-    }
-  body{
- 
-    width: auto;
-  } */
 body{
     width: auto;
-    height: auto;
+    height: fit-content;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -166,4 +105,17 @@ span{
     text-align: center;
     height: 50px;
 }
- 
+ @media screen and (max-width:380px){
+    .main-box{
+        width: 45vh;
+        height: 67vh;
+        margin: 20% auto;
+    }
+    body{
+        padding: 10px;
+    }
+    .second-box{
+        top:-450px
+    }    
+}
+

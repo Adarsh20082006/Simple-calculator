@@ -21,6 +21,7 @@ document.querySelector(".display-2").style.visibility="hidden";
    function ac(){
     document.querySelector(".display").value=" ";
     document.querySelector(".display-2").value=" ";
+    document.querySelector(".second-box").style.visibility="hidden";
 
    }
    function dlt(){
@@ -106,4 +107,36 @@ function tan(x){
       document.querySelector(".display-2").value=x**2;
       open1();
    }
-   
+   function logarithm(){
+      x=document.querySelector(".display").value;
+      document.querySelector(".display").value="l0g("+x+")";
+      document.querySelector(".display-2").value=Math.log10(x).toFixed(4);
+      document.querySelector(".eql").addEventListener('click',()=>{
+         document.querySelector(".display").value=Math.lo1g10(x).toFixed(4);
+      document.querySelector(".display-2").value="";
+   })}
+   function ln(){
+      x=document.querySelector(".display").value;
+      document.querySelector(".display").value="ln("+x+")";
+      document.querySelector(".display-2").value=Math.log(x).toFixed(4);
+      document.querySelector(".eql").addEventListener('click',()=>{
+         document.querySelector(".display").value=Math.log(x).toFixed(4);
+      document.querySelector(".display-2").value="";
+      })
+   }
+   function expo(){
+      x=document.querySelector(".display").value;
+      document.querySelector(".display").value="e^("+x+")";
+      document.querySelector(".display-2").value=Math.exp(x).toFixed(4);
+      document.querySelector(".eql").addEventListener('click',()=>{
+         document.querySelector(".display").value=Math.exp(x).toFixed(4);
+      document.querySelector(".display-2").value="";
+   })}
+   function x3(){
+      x=document.querySelector(".display").value;
+      document.querySelector(".display").value=x+"^3";
+      document.querySelector(".display-2").value=x**3;
+      document.querySelector(".eql").addEventListener('click',()=>{
+         document.querySelector(".display").value=x**3;
+      document.querySelector(".display-2").value="";
+   })}
