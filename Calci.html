@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Calci.css">
+    <meta name="application-name" content="Calculator">
+    <title>Simple calculator</title>
+    <script src="Calci.js"></script>
+</head>
+<body>
+   <div class="main-box">
+    <div class="text-box">
+     <input type="text" id="" name="disply" class="display" disabled><br>
+     <input type="text" class="display-2" disabled>
+     
+    </div>
+    <div class="button-1">
+        <input type="button" accesskey="q" value="AC" onclick="ac()">
+        <input type="button" accesskey="a" value="Delete" onclick="dlt()"></div><span>
+        <input type="button" id="menu" class="menu" value="E" onclick="open1()">
+        </span>
+    <div class="button-2">
+        <input type="button" accesskey="7" value="7" class="btn7" onclick="data('7')">
+        <input type="button" accesskey="8" value="8" onclick="data('8')">
+        <input type="button" accesskey="9" value="9" onclick="data('9')">
+        <input type="button" accesskey="*" value="x" onclick="data('*')">
+    </div>
+    <div class="button-3">
+        <input type="button" accesskey="4" value="4" onclick="data('4')">
+        <input type="button" accesskey="5" value="5" onclick="data('5')">
+        <input type="button" accesskey="6" value="6" onclick="data('6')">
+        <input style="font-size: 27px;" type="button" accesskey="/" value=&divide; onclick="data('/')">
+    </div>
+    <div class="button-4">
+        <input type="button" accesskey="1" value="1" onclick="data('1')">
+        <input type="button" accesskey="2" value="2" onclick="data('2')">
+        <input type="button" accesskey=3 value="3" onclick="data('3')">
+        <input type="button" accesskey="-" value=&minus; onclick="data('-')">
+    </div>
+    <div class="button-5">
+        <input type="button" accesskey="0" value="0" onclick="data('0')">
+        <input style="font-size: 30px;" type="button" accesskey="." value="." onclick="data('.')">
+        <input type="button" accesskey="+" value="+" onclick="data('+')">
+        <input type="button" class="eql" accesskey="=" value="=" onclick="data1()" >
+    </div>
+   </div>
+    <div class="second-box">
+        <div class="second-1">
+            <input type="button" value="&Sqrt;" onclick="sq()">
+            <input type="button" value="3&Sqrt;" onclick="cu()">
+            <input type="button" value="10^x" onclick="po()">
+            <input type="button" value="x^10" onclick="xpo()">
+
+        </div>
+        <div class="second-2">
+        <input type="button" value="Sine()" onclick="sin()">
+        <input type="button" value="Cos()" onclick="cos()">
+        <input type="button" value="Tan()" onclick="tan()">
+        <input type="button" value="x^2" onclick="x2()">
+        </div>
+        <div class="second-3">
+            <input type="button" value=Sine^-1>
+            <input type="button" value="Cos^-1">
+            <input type="button" value="Tan^-1">
+            <input type="button" value="x^3">
+        </div>
+        <div class="second-4">
+            <input type="button" value=log>
+            <input type="button" value=ln>
+            <input type="button" value=expo>
+            <input type="button" value="=">
+        </div>
+   </div>
+
+ 
+</body>
+</html>

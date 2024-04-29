@@ -1,0 +1,169 @@
+/* .main-box{
+display:flexbox;
+background-color: black;
+align-items: center;
+margin: auto;
+height: 600px;
+width: auto;
+border-radius: 15px;
+}
+.text-box input{
+    text-align: right;
+    width: 350px;
+    height: 70px;
+    border: 0;
+    outline:0;
+    margin-top:20px;
+    margin-left: 23px;
+    background-color: rgb(29, 28, 28);
+    justify-content:end;
+    color: rgb(151, 172, 66);
+    font-size: 50px;
+}
+.button-1 input{
+cursor: pointer;
+margin-top: 20px;
+margin-left: 35px; 
+height: 45px;
+width: 70px;
+border-radius: 15px;
+box-shadow:4px 4px rgba(97, 93, 93, 0.352) ,-4px -4px rgba(78, 72, 72, 0.61);
+background-color: black;
+color: rgb(115, 115, 70);
+font-size: large;
+font-weight: bold;
+}
+[class *="button-2"] input{
+cursor: pointer;
+margin:30px 20px 0;
+align-items: center;
+height: 60px;
+width: 55px;
+border-radius: 20px;
+background-color: rgb(14, 13, 13);
+color: azure;
+font-size: 25px;
+}
+.button-3 input,.button-4 input,.button-5 input{
+    cursor:pointer;
+    margin:30px 20px 0;
+    align-items: center;
+    height: 60px;
+    width: 55px;
+    border-radius: 25px;
+    background-color: rgb(14, 13, 13);
+    color: azure;
+    font-size: 25px;
+    }
+  body{
+ 
+    width: auto;
+  } */
+body{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(130deg,rgb(0, 217, 255),rgb(65, 5, 229));
+}
+.main-box{
+background: linear-gradient(120deg, rgb(66, 58, 58),rgb(173, 28, 28),rgb(202, 138, 20));
+margin:50px auto ;
+min-width: 350px;
+height: 540px;
+margin-top: 90px;
+border-radius: 15px;
+border: 2px solid black;
+}
+.text-box input[class=display]{
+    align-items: center;
+    background-color: yellowgreen;
+    border: none;
+    width: 320px;
+    height: 70px;
+    padding-top: -100px;
+    text-align: right;
+    font-size: 45px;
+}
+.text-box input[id=display-1]{
+    align-items: center;
+    background-color: yellowgreen;
+    border: none;
+    width: 320px;
+    height: 70px;
+    padding-top: -100px;
+    text-align: right;
+    font-size: 30px;
+}
+.text-box input[class=display-2]{
+    width: 300px;
+    font-size: larger;
+    margin:0px 0px 10px 15px;
+    position: relative;
+    border: none; 
+    display: flex;
+    height: 25px;
+    justify-content: flex-start;
+    text-align: right;
+    background-color: yellowgreen;
+}
+
+.text-box{
+    background-color: yellowgreen;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 10px;
+    border-radius: 10px;
+    height: 106px;
+
+}
+.button-1 input{
+   width: 100px;
+    margin: 5px 5px 7px 15px;
+   font-size: larger;
+    height: 40px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    box-shadow: -4px -4px 4px black;
+
+}
+.button-1{
+    display: inline;
+}
+.button-2 input,.button-3 input,.button-4 input,.button-5 input{
+margin: 10px;
+width: 60px;
+height: 60px;
+border: none;
+border-radius: 30px;
+font-size: larger;
+background-color: rgb(207, 144, 144);
+box-shadow: -4px -4px 4px black;
+/* margin-left: 15px; */
+}
+.second-box{
+    height: 320px;
+    width: 340px;
+    background: linear-gradient(120deg, rgb(66, 58, 58),rgb(173, 28, 28),rgb(202, 138, 20));  
+    position: relative;
+    top: -410px;
+    visibility: hidden;
+}
+.second-1 input,.second-2 input,.second-3 input,.second-4 input{
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    font-size: medium;
+    background-color: rgb(145, 142, 142);
+    box-shadow: -4px -4px 4px black; 
+}
+span{
+    margin-left: 40px;
+    width: 30px;
+    text-align: center;
+    height: 50px;
+}
+ 
