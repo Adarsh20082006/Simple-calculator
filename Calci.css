@@ -108,13 +108,13 @@ span{
     cursor: pointer;
 }
 
- @media screen and (max-width:400px){
-    .main-box{
-        width: 45vh;
-       height: fit-content;
-        margin: 20% auto;
-       
-    }
+ /* @media screen and (max-width:400px){ */
+    .main-box {
+            width: 45vh;
+            height: fit-content;
+            margin: 20% 25%;
+    
+        }
     body{
         padding: 10px;
         height: 95vh;
@@ -122,6 +122,6 @@ span{
     .second-box{
         top:320px;
     }
-}
+
 
  
