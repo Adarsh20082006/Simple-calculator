@@ -24,6 +24,7 @@ document.querySelector(".display-2").style.visibility="hidden";
     document.querySelector(".second-box").style.visibility="hidden";
 
    }
+  
    function dlt(){
        let dlt=document.querySelector(".display").value;
        document.querySelector(".display").value=document.querySelector(".display").value.toString().slice(0,-1);
