@@ -1,6 +1,6 @@
 body{
     width: auto;
-    height: 100vh;
+    height: 97vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -54,6 +54,7 @@ border: 2px solid black;
     border: 2px solid rgb(0, 0, 0);
     margin: 10px;
     border-radius: 10px;
+    position: relative;
    }
 .button-1 input{
    width: 100px;
@@ -85,8 +86,8 @@ img{
     height: 320px;
     width: 340px;
     background: linear-gradient(120deg, rgb(66, 58, 58),rgb(173, 28, 28),rgb(202, 138, 20));  
-    position: absolute;
-    top: 315px;
+    position: fixed;
+    top: 300px;
     visibility: hidden;
 }
 .second-1 input,.second-2 input,.second-3 input,.second-4 input{
@@ -107,14 +108,19 @@ span{
     cursor: pointer;
 }
 
- @media screen and (max-width:380px){
+ @media screen and (max-width:400px){
     .main-box{
         width: 45vh;
-        height: 75vh;
+       height: fit-content;
         margin: 20% auto;
+       
     }
     body{
         padding: 10px;
+        height: 95vh;
+    }
+    .second-box{
+        top:320px;
     }
 }
 
