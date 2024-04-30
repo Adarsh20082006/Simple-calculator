@@ -209,7 +209,8 @@ body{
     height: 25px;
     margin-left: 5px;
     position: relative;
-    top: 0px;
+    top:10px;
+    margin-bottom: 40px;
     
     border:none;
     border-radius: 4px;
@@ -245,7 +246,7 @@ body{
 }
 .main-box{
     width:330px;
-    margin-top: 0px;
+   
     margin-bottom: 150px;
 
 }

@@ -11,7 +11,7 @@ function data(a){
        document.querySelector(".display").id="display-1"; 
     }
     
-    else{
+    else{ 
        document.querySelector(".display").id="";
     }
    }
@@ -28,7 +28,16 @@ function data(a){
       setTimeout(welcome,500)
    
    } }
-   if(((((document.querySelector(".display").value=="NaN" || document.querySelector(".display-2").value==NaN) || document.querySelector(".display").value==undefined) || document.querySelector(".display-2").value==undefined) || document.querySelector(".display").value==Infinity) || document.querySelector(".display-2").value==Infinity){
+   if ((document.querySelector(".display").value=="NaN") || (document.querySelector(".display-2").value=="NaN")) {
+      con();
+   } else if(document.querySelector(".display").value=="undefined" || document.querySelector(".display-2").value=="undefined") {
+      con();
+   }
+   else if(document.querySelector(".display").value==Infinity || document.querySelector(".display-2").value==Infinity){
+      con()
+   }
+ 
+   function con(){
       document.querySelector(".display").value="Error🥴";
       document.querySelector(".display-2").value="";
    }
