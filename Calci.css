@@ -151,7 +151,6 @@ body{
     height: 90px;
     background-color: yellowgreen;
     border-radius: 10px;
-
  }
 .text-box .display{
     height: 38px;
@@ -163,7 +162,6 @@ body{
     background-color: yellowgreen;
     border: none;
     border-radius: 10px;
-
 }
 .text-box .display-2{
     height: 22px;
@@ -230,7 +228,7 @@ span{
 body{
     
     padding: 0px 10px;
-    margin: 0px ;
+    margin: 0px;
 }
 .main-box{
     width:330px;
