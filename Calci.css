@@ -162,8 +162,10 @@ body{
     background-color: yellowgreen;
     border: none;
     border-radius: 10px;
+    visibility: hidden;
 }
 .text-box .display-2{
+    visibility: hidden;
     height: 22px;
     text-align: right;
     font-size: 15px;
@@ -186,8 +188,8 @@ body{
     height: 30px;
     border-radius: 5px;
 }
-span{
-    margin-left: 175px;  
+.span{
+    margin-left: 70px;  
 }
 .button-2 , .button-3 , .button-4 , .button-5  {
     margin-left: 15px;
@@ -277,8 +279,7 @@ body{
     height: 25px;
     
 }
-span{
-    margin-left: 140px; 
-    
+.span{
+    margin-left: 50px;  
 }
 }
