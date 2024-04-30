@@ -115,6 +115,7 @@ function tan(x){
       document.querySelector(".eql").addEventListener('click',()=>{
          document.querySelector(".display").value=Math.lo1g10(x).toFixed(4);
       document.querySelector(".display-2").value="";
+      open1();
    })}
    function ln(){
       x=document.querySelector(".display").value;
@@ -124,6 +125,7 @@ function tan(x){
          document.querySelector(".display").value=Math.log(x).toFixed(4);
       document.querySelector(".display-2").value="";
       })
+      open1();
    }
    function expo(){
       x=document.querySelector(".display").value;
@@ -132,6 +134,7 @@ function tan(x){
       document.querySelector(".eql").addEventListener('click',()=>{
          document.querySelector(".display").value=Math.exp(x).toFixed(4);
       document.querySelector(".display-2").value="";
+      open1();
    })}
    function x3(){
       x=document.querySelector(".display").value;
@@ -140,4 +143,5 @@ function tan(x){
       document.querySelector(".eql").addEventListener('click',()=>{
          document.querySelector(".display").value=x**3;
       document.querySelector(".display-2").value="";
+      open1();
    })}
