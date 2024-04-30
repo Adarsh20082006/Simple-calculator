@@ -141,7 +141,7 @@ body{
     padding: 10px;
     border-radius: 20px;
     background: linear-gradient(120deg, rgb(66, 58, 58),rgb(173, 28, 28),rgb(202, 138, 20));
-    margin-top: 100px;
+    margin-top: 0px;
     position: relative;
     justify-content: space-between;
     height: 520px;
@@ -203,6 +203,18 @@ span{
     background-color: rgb(207, 144, 144);
     box-shadow: -2px -2px 4px black;
 }
+.feedback button{
+    height: 25px;
+    margin-left: 5px;
+    position: relative;
+    left: 190px;
+    top:10px;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+    left: 115px;
+    background-color: #d36969;
+    }
 .second-box{
     width: 100%;
     margin: auto;
@@ -225,8 +237,7 @@ span{
     box-shadow: -2px -2px 4px black;}
 
 @media screen and (max-width:475px){
-body{
-    
+body{    
     padding: 0px 10px;
     margin: 0px;
 }
