@@ -213,6 +213,7 @@ span{
     background: linear-gradient(120deg, rgb(66, 58, 58),rgb(173, 28, 28),rgb(202, 138, 20));
     top:175px;
     border-radius: 15px;
+    visibility: hidden;
 }
 .second-1 input,.second-2 input,.second-3 input,.second-4 input{
     width:65px;
@@ -227,7 +228,7 @@ span{
 
 @media screen and (max-width:475px){
 body{
-    background: black;
+    
     padding: 0px 10px;
     margin: 0px ;
 }
@@ -262,10 +263,12 @@ body{
    
 }
 .text-box .display-2{
-    margin:10px 0px 3px 140px;
+    margin:10px 0px 3px 130px;
     height: 25px;
+  
 }
 span{
-    margin-left: 140px;  
+    margin-left: 140px; 
+    
 }
 }
