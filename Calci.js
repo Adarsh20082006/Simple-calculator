@@ -28,14 +28,7 @@ function data(a){
       setTimeout(welcome,500)
    
    } }
-   if ((document.querySelector(".display").value=="NaN") || (document.querySelector(".display-2").value=="NaN")) {
-      con();
-   } else if(document.querySelector(".display").value=="undefined" || document.querySelector(".display-2").value=="undefined") {
-      con();
-   }
-   else if(document.querySelector(".display").value==Infinity || document.querySelector(".display-2").value==Infinity){
-      con()
-   }
+ 
  
    function con(){
       document.querySelector(".display").value="Error🥴";
@@ -63,6 +56,14 @@ function data(a){
    function data1(){
 document.querySelector(".display").value=eval(document.querySelector(".display").value);
 document.querySelector(".display-2").style.visibility="hidden";
+if ((document.querySelector(".display").value==="NaN")) {
+   con();
+} else if(document.querySelector(".display").value=="undefined" || document.querySelector(".display-2").value=="undefined") {
+   con();
+}
+else if(document.querySelector(".display").value==Infinity || document.querySelector(".display-2").value==Infinity){
+   con()
+}
    }
 
    function ac(){
@@ -195,3 +196,4 @@ function tan(x){
       document.querySelector(".display-2").value="";
   
    })}
+   
