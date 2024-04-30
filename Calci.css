@@ -207,8 +207,8 @@ span{
     height: 25px;
     margin-left: 5px;
     position: relative;
-    left: 190px;
-    top:10px;
+    top: 0px;
+    
     border:none;
     border-radius: 4px;
     cursor: pointer;
@@ -243,7 +243,8 @@ body{
 }
 .main-box{
     width:330px;
-    
+    margin-top: 0px;
+    margin-bottom: 150px;
 
 }
 .button-2 input , .button-3 input , .button-4 input , .button-5 input  {
@@ -272,7 +273,7 @@ body{
    
 }
 .text-box .display-2{
-    margin:10px 0px 3px 115px;
+    margin:10px 0px 3px 100px;
     height: 25px;
     
 }

@@ -51,7 +51,7 @@ let sub="Feedback about To Do list web app";
 let title="To do list web app was "+(document.querySelector(".values").textContent);
 
 document.querySelector(".submit").addEventListener("click",()=>{
-    document.querySelector("a").href=`mailto:adarshakashmm@gmail.com?subject=${sub}.
+    document.querySelector(".email").href=`mailto:adarshakashmm@gmail.com?subject=${sub}.
     &body=To do list web app was ${(document.querySelector(".values").textContent)}.
      ${document.querySelector(".describe").value}`;
 })
