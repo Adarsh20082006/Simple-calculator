@@ -131,7 +131,7 @@ body{
 .main-box{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
     width:80%;
     max-width: 370px;
     border:1px solid black;
@@ -143,6 +143,8 @@ body{
     background: linear-gradient(120deg, rgb(66, 58, 58),rgb(173, 28, 28),rgb(202, 138, 20));
     margin-top: 100px;
     position: relative;
+    justify-content: space-between;
+    height: 520px;
 }
  .text-box{
     width: 100%;
@@ -190,26 +192,27 @@ span{
     margin-left: 175px;  
 }
 .button-2 , .button-3 , .button-4 , .button-5  {
-  
+    margin-left: 15px;
     width: 95%;
-    margin: 15px 0px 15px 0px;
+    /* margin: 15px 0px 15px 0px; */
 }
 .button-2 input , .button-3 input , .button-4 input , .button-5 input  {
     width:65px;
     height: 65px;
     border-radius: 50%;
     margin-right: 18px;
-    font-size: larger;
+    font-size: medium;
     background-color: rgb(207, 144, 144);
     box-shadow: -2px -2px 4px black;
 }
 .second-box{
     width: 100%;
     margin: auto;
-    padding-right: -10px;
+    right:0px;
     position: absolute;
     background: linear-gradient(120deg, rgb(66, 58, 58),rgb(173, 28, 28),rgb(202, 138, 20));
-    top:157px;
+    top:175px;
+    border-radius: 15px;
 }
 .second-1 input,.second-2 input,.second-3 input,.second-4 input{
     width:65px;
@@ -222,9 +225,15 @@ span{
     background-color: rgb(207, 144, 144);
     box-shadow: -2px -2px 4px black;}
 
-@media screen  and (max-width:480px){
+@media screen and (max-width:475px){
+body{
+    background: black;
+    padding: 0px 10px;
+    margin: 0px ;
+}
 .main-box{
-    width:350px;
+    width:330px;
+    
 
 }
 .button-2 input , .button-3 input , .button-4 input , .button-5 input  {
@@ -232,21 +241,31 @@ span{
     height: 65px;
     border-radius: 50%;
     font-size: large; 
-    margin-right: 10px;
-    margin-left: 5px;
+    margin-right: 5px;
+    margin-left: 3px;
 }
 .second-box{
     width: 100%;
     margin: auto;
     padding-right: -10px;
     position: absolute;
-
-    top:157px;
+    top:180px;
 }
 .second-1 input,.second-2 input,.second-3 input,.second-4 input{
-      margin-right: 10px;
+      margin-right: 5px;
     margin-bottom: 25px;
-    margin-left: 14px;
+    margin-left: 5px;
     font-size: large;
+}
+.second-1,.second-2,.second-3,.second-4{
+    margin-left: 20px;
+   
+}
+.text-box .display-2{
+    margin:10px 0px 3px 140px;
+    height: 25px;
+}
+span{
+    margin-left: 140px;  
 }
 }
