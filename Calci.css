@@ -242,11 +242,11 @@ body{
 
 @media screen and (max-width:475px){
 body{    
-    padding: 0px 10px;
+    padding: 0px 5px;
     margin: 0px;
 }
 .main-box{
-    width:310px;
+    width:320px;
    
     margin-bottom: 150px;
 
@@ -282,6 +282,6 @@ body{
     
 }
 .span{
-    margin-left: 50px;  
+    margin-left: 30px;  
 }
 }
