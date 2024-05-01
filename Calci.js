@@ -50,13 +50,12 @@ function data(a){
      setTimeout(()=>{document.querySelector(".display").value+="r"},1000)
      setTimeout(()=>{document.querySelector(".display").value+="e"},1050)
      setTimeout(()=>{document.querySelector(".display").value+="!"},1100)
-     setTimeout(()=>{document.querySelector(".display").value=""},1500)
+     setTimeout(()=>{document.querySelector(".display").value=""},2000)
    }
    
    function data1(){
-document.querySelector(".display").value=eval(document.querySelector(".display").value);
-document.querySelector(".display-2").style.visibility="hidden";
-if ((document.querySelector(".display").value==="NaN")) {
+
+if ((document.querySelector(".display").value==="NaN")||(document.querySelector(".display-2").value==="NaN")) {
    con();
 } else if(document.querySelector(".display").value=="undefined" || document.querySelector(".display-2").value=="undefined") {
    con();
@@ -64,6 +63,8 @@ if ((document.querySelector(".display").value==="NaN")) {
 else if(document.querySelector(".display").value==Infinity || document.querySelector(".display-2").value==Infinity){
    con()
 }
+document.querySelector(".display").value=eval(document.querySelector(".display").value);
+document.querySelector(".display-2").style.visibility="hidden";
    }
 
    function ac(){

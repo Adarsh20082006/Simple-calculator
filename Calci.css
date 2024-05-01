@@ -164,6 +164,7 @@ body{
     border-radius: 10px;
     visibility: hidden;
 }
+
 .text-box .display-2{
     visibility: hidden;
     height: 22px;
@@ -185,7 +186,7 @@ body{
     font-size: large;
     margin-right: 20px;
     background-color: brown;
-    height: 30px;
+    height: 35px;
     border-radius: 5px;
 }
 .span{
@@ -224,7 +225,7 @@ body{
     right:0px;
     position: absolute;
     background: linear-gradient(120deg, rgb(66, 58, 58),rgb(173, 28, 28),rgb(202, 138, 20));
-    top:175px;
+    top:180px;
     border-radius: 15px;
     visibility: hidden;
 }
