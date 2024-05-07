@@ -47,11 +47,11 @@ star5.addEventListener("click",function(e){
 })
 // let sub="Feedback%20about%20To%20Do%20list%20web%20app";
 // let body="To%20do%20list%20web%20app%20was%20"+star+"<br>"+decription;
-let sub="Feedback about To Do list web app";
-let title="To do list web app was "+(document.querySelector(".values").textContent);
+let sub="Feedback about Simple calculator web app";
+let title="Simple calculator web app was "+(document.querySelector(".values").textContent);
 
 document.querySelector(".submit").addEventListener("click",()=>{
     document.querySelector(".email").href=`mailto:adarshakashmm@gmail.com?subject=${sub}.
-    &body=To do list web app was ${(document.querySelector(".values").textContent)}.
+    &body=Simple calculator web app was ${(document.querySelector(".values").textContent)}.
      ${document.querySelector(".describe").value}`;
 })

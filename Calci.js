@@ -55,14 +55,14 @@ function data(a){
    
    function data1(){
 
-if ((document.querySelector(".display").value==="NaN")||(document.querySelector(".display-2").value==="NaN")) {
-   con();
-} else if(document.querySelector(".display").value=="undefined" || document.querySelector(".display-2").value=="undefined") {
-   con();
-}
-else if(document.querySelector(".display").value==Infinity || document.querySelector(".display-2").value==Infinity){
-   con()
-}
+// if ((document.querySelector(".display").value==="NaN")||(document.querySelector(".display-2").value==="NaN")) {
+//    con();
+// } else if(document.querySelector(".display").value=="undefined" || document.querySelector(".display-2").value=="undefined") {
+//    con();
+// }
+// else if(document.querySelector(".display").value==Infinity || document.querySelector(".display-2").value==Infinity){
+//    con()
+// }
 document.querySelector(".display").value=eval(document.querySelector(".display").value);
 document.querySelector(".display-2").style.visibility="hidden";
    }
